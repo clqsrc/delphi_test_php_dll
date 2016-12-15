@@ -1,0 +1,40 @@
+object Form1: TForm1
+  Left = 377
+  Top = 219
+  Width = 743
+  Height = 532
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = #23435#20307
+  Font.Style = []
+  OldCreateOrder = False
+  Scaled = False
+  PixelsPerInch = 96
+  TextHeight = 11
+  object txtFn: TEdit
+    Left = 48
+    Top = 56
+    Width = 617
+    Height = 20
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = #23435#20307
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Text = 'D:\gs_d\fy\src\http\nginx-1.10.1\phpa\ext\php_gd2.dll'
+  end
+  object Button1: TButton
+    Left = 48
+    Top = 104
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
